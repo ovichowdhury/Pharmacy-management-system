@@ -1,0 +1,20 @@
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\bin\Debug\Login System.exe.config
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\obj\Debug\Login System.exe
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\obj\Debug\Login System.pdb
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\bin\Debug\Login System.exe
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\bin\Debug\Login System.pdb
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\bin\Debug\itextsharp.dll
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\bin\Debug\itextsharp.pdfa.dll
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\bin\Debug\itextsharp.xtra.dll
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\obj\Debug\Login_System.DailyReport.resources
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\obj\Debug\Login_System.DeleteAccountForm.resources
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\obj\Debug\Login_System.MainForm.resources
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\obj\Debug\Login_System.InsertData.resources
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\obj\Debug\Login_System.InventoryNotification.resources
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\obj\Debug\Login_System.PrepareBillForm.resources
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\obj\Debug\Login_System.PromptUser.resources
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\obj\Debug\Login_System.Properties.Resources.resources
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\obj\Debug\Login_System.ShowDatabaseInfo.resources
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\obj\Debug\Login_System.SignUp.resources
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\obj\Debug\Login_System.UpdateDeleteData.resources
+E:\O V E\CIS\software project 1\Intelligent PharmaSoft\Login System\obj\Debug\pms+.csproj.GenerateResource.Cache

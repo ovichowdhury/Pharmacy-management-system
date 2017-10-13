@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{54B356DF-F239-414B-96DA-A01E95434550}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Login_System</RootNamespace>
+    <AssemblyName>Login System</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>hospital-icon_1_.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>D:\.net dll lib\itextsharp pdf creator\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>D:\.net dll lib\itextsharp pdf creator\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>D:\.net dll lib\itextsharp pdf creator\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\OracleConnection\packages\Oracle.ManagedDataAccess.12.1.24160719\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DailyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyReport.Designer.cs">
+      <DependentUpon>DailyReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseInsert.cs" />
+    <Compile Include="DatabaseIO.cs" />
+    <Compile Include="DatabaseUpdateDelete.cs" />
+    <Compile Include="DeleteAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteAccountForm.Designer.cs">
+      <DependentUpon>DeleteAccountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertData.Designer.cs">
+      <DependentUpon>InsertData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryNotification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryNotification.Designer.cs">
+      <DependentUpon>InventoryNotification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MedicalAssistance.cs" />
+    <Compile Include="PrepareBillForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrepareBillForm.Designer.cs">
+      <DependentUpon>PrepareBillForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="PromptUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PromptUser.Designer.cs">
+      <DependentUpon>PromptUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchSpeechRecognizer.cs" />
+    <Compile Include="ShowDatabaseInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowDatabaseInfo.Designer.cs">
+      <DependentUpon>ShowDatabaseInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateDeleteData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateDeleteData.Designer.cs">
+      <DependentUpon>UpdateDeleteData.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DailyReport.resx">
+      <DependentUpon>DailyReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteAccountForm.resx">
+      <DependentUpon>DeleteAccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertData.resx">
+      <DependentUpon>InsertData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryNotification.resx">
+      <DependentUpon>InventoryNotification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrepareBillForm.resx">
+      <DependentUpon>PrepareBillForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PromptUser.resx">
+      <DependentUpon>PromptUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowDatabaseInfo.resx">
+      <DependentUpon>ShowDatabaseInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDeleteData.resx">
+      <DependentUpon>UpdateDeleteData.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logovoiceorg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="hospital-icon_1_.ico" />
+    <None Include="Resources\doctor_icon.jpg" />
+    <None Include="Resources\help-icon.png" />
+    <None Include="Resources\NeedHelpbubbles.png" />
+    <None Include="Resources\background.jpg" />
+    <None Include="Resources\toolstripImage.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
